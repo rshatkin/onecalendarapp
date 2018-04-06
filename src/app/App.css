@@ -1,0 +1,66 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.events-list {
+	list-style: none;
+}
+
+.loggedout {
+	text-align: center; 
+}
+
+.main-container {
+  padding: 40px 40px 30px 40px;	
+  margin: 0 auto;
+	width: 50%;
+}
+
+.main-heading, .subheading {
+	margin-top: 0px;
+	text-align: center;
+}
+
+.logout-option {
+	font-size: 12px;
+	text-align: center;
+  border-top: 1px solid lightgray;
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.container1 {
+	padding: 30px 10px;
+	margin-top: 35px;
+  border-top: 1px solid lightgray;
+}
+
+.sync-submit {
+	margin-top: 20px;
+}
+
